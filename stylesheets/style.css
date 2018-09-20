@@ -38,7 +38,7 @@ body{
 		"sans-serif";
 	color:#002D9A;
 		background-color:#9A9A9A;
-	backgrond-image: url(../images/background.jpg)
+	background:url(../images/background.jpg)
 }
 #header,#sidebar,#content,#footer {
 	background-color:#4D6398;
