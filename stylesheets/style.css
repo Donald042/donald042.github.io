@@ -1,0 +1,68 @@
+/* CSS Document */
+
+/* ------------------
+
+BASIC STRUCTURE
+
+------------------ */
+#wrapper {
+	width: 960px;
+	padding: 5px;
+	margin: 20px auto;
+}
+#header {
+	height: 100px;
+}
+#sidebar {
+	float: left;
+	width: 300px;
+}
+#content{
+	float: right;
+	width: 600px;
+}
+#footer {
+	claer: both;
+}
+/* ------------------
+
+COLORS AND FONTS
+9A9A9A
+FFC231
+002D9A
+4D6398
+E7AA17
+------------------ */
+body{
+	font-family:Gotham," Heveltica Neue" ,Gotham, "Helvetica Neue", Helvetica, Arial, 
+		"sans-serif";
+	color:#002D9A;
+		background-color:#9A9A9A;
+	backgrond-image: url(../images/background.jpg)
+}
+#header,#sidebar,#content,#footer {
+	background-color:#4D6398;
+	border:double;
+	border-radius:8px;
+	border-color:grey;
+}
+/*
+body{ 
+	
+	background-color: black
+
+}
+p {
+	color: aquamarine;
+	font-size: 32px
+}
+
+#wrapper {
+	
+}
+h1 {
+	font-fmaily: segoe, "Segoe UI"
+}
+
+*/
+
