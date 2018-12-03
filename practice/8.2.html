@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Global Variable</title>
+	<script type="text/javascript">
+	var CookieClicker = {
+		cookies: 0,
+		click:function() {
+			// increment cookie score
+			this.cookies++;
+			// save in local storage
+			
+			if(typeof(storage)!== "undefined") (
+			)localStorage.setItem("cookies",this.cookies);
+			this.update_screen();
+			
+		},
+		update_screen: function() {
+			document.getElementById("output").innerHTML = this.cookies;
+		},
+		init: function() {
+			// checkif cookies in localStorage
+			if(typeof(Storage)) !== "undefined") {
+				var c = localStorage
+				
+			}
+		}
+	}
+	</script>
+</head>
+
+<body>
+	<a href="JavaScript:CookieClicker()"><img src="../images/cookie.png" alt="cookie"></a>
+	<p id="output"></p>
+																	  
+</body>
+</html>

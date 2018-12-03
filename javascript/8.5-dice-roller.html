@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.5 - Dice Roller</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var six=0;
+		var five=0;
+		var four=0;
+		var three=0;
+		var two=0;
+		var one=0;
+		function diceRoller() {
+			// calculate roll
+			var roll = Math.ceil(Math.random() * 6);
+			if(roll == 6){
+				six++;
+
+			}else if(roll == 5){
+				five++;
+			} else if(roll == 4){
+				four++;
+			}else if(roll == 3){
+				three++;
+			}else if (roll == 2){
+				two++;
+			}else {
+				one++
+			}
+
+
+
+
+
+
+			// return result
+			return roll;
+		} // end function
+
+		for( var t = 1; t <= 100; t++){
+
+				// call function and print return value
+				document.write(diceRoller() + " ");
+			}
+				document.write('<br>' + 'ones = ' + one + '<br>');
+				document.write('<br>' + 'twos = ' + two + '<br>');
+				document.write('<br>' + 'threes = ' + three + '<br>');
+				document.write('<br>' + 'fours = ' + four + '<br>');
+				document.write('<br>' + 'fives = ' + five + '<br>');
+				document.write('<br>' + 'sixs = ' + six+ '<br>');
+
+	</script>
+</body>
+</html>

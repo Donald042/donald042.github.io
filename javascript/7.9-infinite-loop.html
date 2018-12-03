@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>7.9 - Infinite Loop</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+			var again = true;
+		while(again == true) {
+		// use your Fahrenheit to Celsius or Dollar to Yen program
+		// make it loop until the user is done entering temperatures/dollar amounts
+		var dollar = Number(prompt("How much money do you have in dollars"));
+	
+	// convert dollar to yen
+	var yen=Number(113.58* dollar);
+	alert(yen.toFixed(2) + ' yens');
+			var again = confirm("would you like to continue");
+			
+		}
+		 
+	</script>
+</body>
+</html>

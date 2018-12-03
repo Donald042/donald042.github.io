@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+			while( true ) { // uh oh! infinte loop or it...?
+			  var score = eval(prompt("what was your score on the quiz?"));
+				if( score < 0 || score > 100) {
+					alert("Error! Invalid grade!");
+					continue; // Go back to the beginning of the while loop
+					
+				}
+				
+					
+				   if( score>= 90 )
+					{alert("congratulations! You got an A");}
+				  else if ( score >= 80 )
+						 {alert("You got a B.");}
+				 else if(score>= 70)
+					 {alert("You got a C.");}
+				else if( score>= 60 )
+					{alert("You got a D.");}
+				else
+					{alert("You got an F.")}
+				var more_scores = confirm("Do you want to enter another score");
+				if ( !more_scores ) {
+					break;// end loop
+				}
+			}
+		
+						 
+	</script>
+</body>
+</html>
